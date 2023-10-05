@@ -1,1 +1,1 @@
-Init obsidian note
+# Yellowinq's Obsidian Note
