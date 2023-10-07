@@ -8,9 +8,9 @@ $TagUrl = "/FortAwesome/Font-Awesome/releases/tag/*";
 $Response = Invoke-WebRequest -URI $Url;
 $Links = $Response.Links;
 $Tags = $Links
-			| Where-Object {$_.href -like $TagUrl}
-			| Select-Object -Unique -Property href
-			| ForEach-Object {$_.href};
+		| Where-Object {$_.href -like $TagUrl}
+		| Select-Object -Unique -Property href
+		| ForEach-Object {$_.href};
 $Latest = $Tags[0].SubString(39);
 $FileName = "fontawesome-free-$($Latest)-desktop";
 $FileUrl = "https://github.com/FortAwesome/Font-Awesome/releases/download/$($Latest)/$($FileName).zip";
