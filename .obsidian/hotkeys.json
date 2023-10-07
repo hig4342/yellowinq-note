@@ -1,0 +1,19 @@
+{
+  "terminal:open-terminal.external.current": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "`"
+    }
+  ],
+  "terminal:open-terminal.integrated.current": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "`"
+    }
+  ]
+}

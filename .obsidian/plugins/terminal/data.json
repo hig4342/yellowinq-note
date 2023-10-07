@@ -1,0 +1,57 @@
+{
+  "addToCommand": true,
+  "addToContextMenu": true,
+  "createInstanceNearExistingOnes": true,
+  "errorNoticeTimeout": 0,
+  "exposeInternalModules": true,
+  "focusOnNewInstance": true,
+  "hideStatusBar": "focused",
+  "language": "",
+  "newInstanceBehavior": "newHorizontalSplit",
+  "noticeTimeout": 5,
+  "openChangelogOnUpdate": true,
+  "pinNewInstance": false,
+  "preferredRenderer": "webgl",
+  "profiles": {
+    "fc5d2f98-de77-4b5e-8359-8e01ecdf5777": {
+      "args": [],
+      "executable": "pwsh",
+      "name": "Powershell Integrated",
+      "platforms": {
+        "darwin": true,
+        "linux": true,
+        "win32": true
+      },
+      "pythonExecutable": "python3",
+      "restoreHistory": true,
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
+      "terminalOptions": {
+        "fontFamily": "Hack NFM"
+      },
+      "type": "integrated",
+      "useWin32Conhost": true
+    },
+    "dcc67a53-4cf3-4f14-8271-8a934e4bb8ec": {
+      "args": [],
+      "executable": "pwsh",
+      "name": "Powershell External",
+      "platforms": {
+        "darwin": true,
+        "linux": true,
+        "win32": true
+      },
+      "restoreHistory": true,
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
+      "terminalOptions": {},
+      "type": "external"
+    }
+  }
+}
